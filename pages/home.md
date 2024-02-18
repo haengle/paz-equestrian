@@ -7,16 +7,10 @@ eleventyNavigation:
   key: Home
   order: 0
 ---
-# Welcome
+# Liberty, Groundwork, Clinics & Lessons
 
-This is a template for building a simple blog website with the [Eleventy static site generator](https://www.11ty.dev), with deployment to [Netlify](https://www.netlify.com).
+## Serving CT, NY, & New England
 
-Includes [Decap CMS](https://www.decapcms.org) for WYSIWYG content editing, and [Netlify Forms](https://www.netlify.com/docs/form-handling) for processing your site's form data.
+Paz Equestrian is the home of freelance horse training and lesson instruction by Kim Pasnau Nemchek serving Connecticut, New England, and New York. It is our mission to bring quality instruction and education into the lives of all riders and horsemen!
 
-[Log in to the Decap CMS dashboard](/admin/)
-
-For more info on installation and usage, view the [project repo]({{ pkg.repository.url }}) on GitHub.
-
-Or click the button below to deploy your own copy of this project to Netlify.
-
-[![Deploy to Netlify](https://www.netlify.com/img/deploy/button.svg)](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
+[](https://app.netlify.com/start/deploy?repository=https://github.com/danurbanowicz/eleventy-netlify-boilerplate&stack=cms)
