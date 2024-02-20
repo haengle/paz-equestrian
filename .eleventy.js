@@ -37,6 +37,11 @@ module.exports = function(eleventyConfig) {
     }, {});
   });
 
+  // Copyright date
+  eleventyConfig.addShortcode('year', () => {
+    return `${new Date().getFullYear()}`;
+  });
+
   // Date formatting (human readable)
   eleventyConfig.addFilter("readableDate", dateObj => {
     return DateTime.fromJSDate(dateObj).toFormat("dd LLL yyyy");

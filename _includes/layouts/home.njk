@@ -3,4 +3,51 @@ layout: layouts/base.njk
 section: home
 ---
 
-{{ layoutContent | safe }}
+<section class="hero">
+    <picture>
+        <source srcset="/static/img/liberty.webp" type="image/webp" />
+        <img src="/static/img/liberty.jpg" alt="Horse liberty performance">
+    </picture>
+    <div class="hero-content">
+        <div class="hero-content--inner">
+        {{ layoutContent | safe }}
+        </div>
+    </div>
+</section>
+
+<section class="features">
+    <div class="feature blog">
+        <picture>
+            <source srcset="/static/img/horses.webp" type="image/webp" />
+            <img src="/static/img/horses.jpg" alt="Group of horses in portrait">
+        </picture>
+        <div class="feature-content">
+            <h2>Featured blog post</h2>
+            <p>Lorem ipsum dolor sit amet lorem ipsum...</p>
+            <a href="#">Read More</a>
+        </div>
+    </div>
+    <div class="feature event">
+        <picture>
+            <source srcset="/static/img/horses.webp" type="image/webp" />
+            <img src="/static/img/horses.jpg" alt="Group of horses in portrait">
+        </picture>
+        <div class="feature-content">
+            <h2>Next Event Name</h2>
+            <h3>Feb 25, 2024</h3>
+            <p>Lorem ipsum dolor sit amet lorem ipsum...</p>
+            <a href="#">Sign Up</a>
+        </div>
+    </div>
+    <div class="feature about">
+        <picture>
+            <source srcset="/static/img/kim.webp" type="image/webp" />
+            <img src="/static/img/kim.jpg" alt="Kim on a horse">
+        </picture>
+        <div class="about-content">
+            <h2>About Kim</h2>
+            <p>Lorem ipsum dolor sit amet lorem ipsum...</p>
+            <a href="/about">Learn More</a>
+        </div>
+    </div>
+</section>

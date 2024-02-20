@@ -4,11 +4,12 @@
 	{% include "components/head.njk" %}
 
 	<body>
-
 		<header>
-			<em>
-				<a href="{{ '/' | url }}">{{ metadata.title }}</a>
-			</em>
+			<div class="logo">
+				<a href="{{ '/' | url }}">
+					<img src="/static/img/logo.jpg" alt="Paz Equestrian" />
+				</a>
+			</div>
 			{% include "components/nav.njk" %}
 		</header>
 
